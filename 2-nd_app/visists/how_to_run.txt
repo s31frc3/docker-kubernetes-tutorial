@@ -1,2 +1,0 @@
-docker build -t secont:latest .
-docker run secont:latest
