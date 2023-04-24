@@ -26,8 +26,10 @@ docker exec -it example-01 sh
 
 You can execute each example with the following:
 
-cd kubernetes/example-01
+```
+cd andI7836I-docker-kubernetes-tutorial/example-01
 kubectl apply -f deployment.yaml
+```
 
 **Getting Help**
 If you encounter any issues while working with this repository, please create a discussion or issue on GitHub so that we can assist you.
