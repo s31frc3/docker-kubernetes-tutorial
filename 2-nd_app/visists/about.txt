@@ -1,5 +1,0 @@
-This container is keeping track of the number of website visits.
-
-how to run:
-docker build -t secont:latest .
-docker run secont:latest
