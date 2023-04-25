@@ -1,6 +1,5 @@
 1. npm install -g create-react-app
-2. cd new_project
-3. create-react-app frontend
+2. create-react-app frontend
 
 npm run start #starts up a development server(for development use only)
 npm run test #runs test associated with the new_project
