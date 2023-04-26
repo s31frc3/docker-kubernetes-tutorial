@@ -9,3 +9,9 @@ mkdir Dockerfile.dev
 docker build -f Dockerfile.dev .
 docker run -p 3000:3000 <container id>
 docker run -p 3002:3002 -v /app/node_modules -v $(pwd):/app <container id>
+docker attach <container id> #чтоб запускать тесты заново
+docker exec -it <container id> sh #запустить shell
+
+production version:
+after creating Dockerfile run "docker build ."
+then "docker run -p 8080:80 <container id>"
