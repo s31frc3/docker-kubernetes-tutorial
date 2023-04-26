@@ -5,4 +5,7 @@ npm run start #starts up a development server(for development use only)
 npm run test #runs test associated with the new_project
 npm run build #builds a production version of the application
 mkdir Dockerfile.dev
+
 docker build -f Dockerfile.dev .
+docker run -p 3000:3000 <container id>
+docker run -p 3002:3002 -v /app/node_modules -v $(pwd):/app <container id>
