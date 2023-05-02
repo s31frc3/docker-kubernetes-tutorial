@@ -10,4 +10,7 @@ docker build -f Dockerfile.dev
 ```
 docker run -it <container id>
 ```
-<!-- b7f7ae9c2bb2 -->
+4. build the container:
+```
+docker-compose up --build
+```
