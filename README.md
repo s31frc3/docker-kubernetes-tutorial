@@ -1,4 +1,4 @@
-# andI7836I-docker-kubernetes-tutorial
+# docker-kubernetes-tutorial
 This repository contains code examples demonstrating basic concepts of Docker and Kubernetes. This project is created for educational purposes and aimed to help novice developers learn these tools.
 
 **Contents**
@@ -10,7 +10,7 @@ This repository contains code examples demonstrating basic concepts of Docker an
 The first step to using this repository is cloning the repository to your local file system. You can use a git client or download the ZIP archive and extract it to the desired directory.
 
 ```
-git clone https://github.com/andI7836I/andI7836I-docker-kubernetes-tutorial
+git clone https://github.com/s31frc3/docker-kubernetes-tutorial
 ```
 **Docker**
 
@@ -19,7 +19,7 @@ In the docker folder, you'll find a series of examples demonstrating basic Docke
 For example, you can run the first example by navigating to its directory and executing the following command:
 
 ```
-cd andI7836I-docker-kubernetes-tutorial/example-01
+cd docker-kubernetes-tutorial/example-01
 docker build .
 docker exec -it example-01 sh
 ```
@@ -27,7 +27,7 @@ docker exec -it example-01 sh
 You can execute each example with the following:
 
 ```
-cd andI7836I-docker-kubernetes-tutorial/example-01
+cd docker-kubernetes-tutorial/example-01
 kubectl apply -f deployment.yaml
 ```
 
